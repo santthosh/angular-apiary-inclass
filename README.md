@@ -1,3 +1,5 @@
+[Walkthrough for this code](http://www.harrisonjackson.us/frontend/2015/03/31/Prototyping-with-apiary-and-angularjs.html)
+
 # notes
 
 This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
