@@ -3,7 +3,7 @@
 <ul style="list-style:none;">
     <li ng-repeat="note in notes" style="margin-top:5px">
         <div class="btn-group">
-            <a class="btn btn-info" href="#notes/{{note.id}}" class="btn btn-default">{{note.title}}</a>
+            <a class="btn btn-info" ng-href="#notes/{{note.id}}" class="btn btn-default">{{note.title}}</a>
             <button class="btn btn-danger" ng-click="deleteNote({{note.id}})">Delete</button>
         </div>
     </li>
