@@ -9,7 +9,7 @@
  */
 angular.module('notesApp')
   .factory('note', function ($resource) {
-    var note = $resource("http://private-ad0b0-demoapi24.apiary-mock.com/notes/:id");
+    var note = $resource("http://private-052fa-notesdemo.apiary-mock.com/notes/:id");
     note.prototype.update = function(cb) {
       return note.save(this)
         .$promise.then(
